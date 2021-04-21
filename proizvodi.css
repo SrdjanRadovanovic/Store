@@ -1,0 +1,25 @@
+.galerija{
+	width: 100%;
+	
+}
+.slika{
+	
+	float: left;
+	margin: 10px;
+}
+
+.opis{
+	text-align: center;
+}
+.slika .opis{
+	border: 1px solid black;
+}
+footer{
+	background-color: black;
+	color: white;
+	 clear: both;
+}
+article{
+	text-align: center;
+	padding: 10px;
+}

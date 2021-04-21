@@ -1,0 +1,60 @@
+p{
+	font-size: 50px;
+	text-align: center;
+}
+.form{
+	text-align: center;
+	width: 100%;
+}
+input[type="text"]{
+	width: 300px;
+	padding: 10px;
+	border-radius: 11px;
+}
+input[type="text"]:focus{
+	background-color: lightblue;
+	font-weight: bold;
+}
+textarea{
+	width: 300px;
+	height: 150px;
+	border-radius: 15px;
+}
+textarea:focus{
+	background: lightblue;
+	font-weight: bold;
+}
+button{
+	width: 300px;
+	height: 60px;
+	background-color: black;
+	opacity: 0.4;
+	border-radius: 11px;
+	color: white;
+	border: none;
+}
+button:hover{
+	opacity: 0.9;
+}
+.inf{
+	font-size: 20px;
+	text-align: left;
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%; 
+  }
+}
+
+footer{
+	background-color: black;
+	color: white;
+}
+article{
+	text-align: center;
+	padding: 10px;
+}

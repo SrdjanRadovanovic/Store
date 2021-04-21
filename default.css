@@ -1,0 +1,59 @@
+*{margin:0;padding:0;}
+
+header{
+  overflow: hidden;
+  background: black;
+}
+
+.bars{
+  font-size: 25px;
+  float: right;
+  margin-top: 20px;
+  color:white;
+  display: none;
+  padding: 0 10px 10px 0;
+}
+
+body{
+	background-color: silver;
+}
+ul{
+  clear: both;
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin: 0;
+	padding: 14px 25px;
+}
+li a:hover{
+	color: red;
+}
+.menuu{
+  clear:both;
+}
+.active{
+	color: red;
+}
+@media only screen and (max-width: 450px){
+
+  .menuu{
+    display: none;
+  }
+
+.bars{
+    display: block;
+  }
+
+	li {float: none; text-align: center;}
+
+}
